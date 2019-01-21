@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "732593738992",
+    "firebase_url": "https://groceryplanner-696cb.firebaseio.com",
+    "project_id": "groceryplanner-696cb",
+    "storage_bucket": "groceryplanner-696cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732593738992:android:0da974e6692320ac",
+        "android_client_info": {
+          "package_name": "com.iamchuckss.foodcart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732593738992-hkfruat1c602ck6supr7fhau28obiaja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD672YqBR9aQ8C83LVtvb6zi63iUzQqslI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:732593738992:android:49c1c0a1d661c936",
+        "android_client_info": {
+          "package_name": "com.iamchuckss.groceryplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "732593738992-326kjmm7t5j8ptiqc9li51pdedt67h6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamchuckss.groceryplanner",
+            "certificate_hash": "94601efe826e8b7bf8f8921b100c60beddf30800"
+          }
+        },
+        {
+          "client_id": "732593738992-hkfruat1c602ck6supr7fhau28obiaja.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD672YqBR9aQ8C83LVtvb6zi63iUzQqslI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "732593738992-hkfruat1c602ck6supr7fhau28obiaja.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

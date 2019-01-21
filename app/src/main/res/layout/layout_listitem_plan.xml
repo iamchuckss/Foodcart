@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="115dp"
+    android:padding="10dp"
+    android:id="@+id/parent_layout"
+    android:background="@drawable/white_grey_border">
+
+        <TextView
+            android:id="@+id/day_title"
+            android:layout_width="match_parent"
+            android:text="Monday"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:clickable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/day_title"
+            android:orientation="vertical"
+            android:animateLayoutChanges="true">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recipe_list"/>
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

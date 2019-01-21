@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Foodcart</string>
+
+    <!-- Firebase messages -->
+    <string name="auth_failed">Failed to Authenticate</string>
+    <string name="auth_success">Authentication Success</string>
+
+    <!-- Firebase database fields -->
+    <string name="dbname_users">users</string>
+    <string name="dbname_user_recipes">user_recipes</string>
+    <string name="db_name_user_ingredients">user_ingredients</string>
+    <string name="db_name_user_plan">user_plan</string>
+
+    <string name="field_username">username</string>
+    <string name="field_email">email</string>
+    <string name="field_ingredient_title">title</string>
+    <string name="field_recipe_title">title</string>
+
+    <string name="field_monday">monday</string>
+    <string name="field_tuesday">tuesday</string>
+    <string name="field_wednesday">wednesday</string>
+    <string name="field_thursday">thursday</string>
+    <string name="field_friday">friday</string>
+    <string name="field_saturday">saturday</string>
+    <string name="field_sunday">sunday</string>
+
+    <string name="task_finished_broadcast">Task finished.</string>
+
+</resources>

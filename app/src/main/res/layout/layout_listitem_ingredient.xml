@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parent_layout"
+    android:background="@drawable/white_grey_border_bottom">
+
+<TextView
+    android:id="@+id/ingredient_title"
+    android:layout_width="match_parent"
+    android:text="Curry Powder"
+    android:textColor="@color/black"
+    android:layout_height="wrap_content"
+    android:textSize="20sp"/>
+
+</RelativeLayout>
