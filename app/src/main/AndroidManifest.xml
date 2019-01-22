@@ -25,6 +25,10 @@
         <activity android:name="com.iamchuckss.foodcart.library.AddRecipeActivity"></activity>
         <activity android:name="com.iamchuckss.foodcart.library.SelectIngredientsActivity"></activity>
         <activity android:name="com.iamchuckss.foodcart.plan.SelectRecipeActivity"></activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

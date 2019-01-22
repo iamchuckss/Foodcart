@@ -2,31 +2,42 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="55dp"
     android:padding="10dp"
     android:id="@+id/parent_layout"
-    android:layout_marginBottom="5dp"
     android:background="@drawable/white_grey_border_bottom">
+
+    <android.support.v7.widget.AppCompatCheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:button="@drawable/round_checkbox"
+        android:id="@+id/checkBox"
+        />
 
     <TextView
         android:id="@+id/ingredient_title"
         android:layout_width="250dp"
         android:text="Curry Powder"
-        android:textColor="@color/black"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/colorBasicText"
+        android:layout_marginLeft="10dp"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:textSize="20sp" />
+        android:layout_toRightOf="@+id/checkBox"
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/ingredient_quantity"
         android:layout_width="match_parent"
+        android:fontFamily="@font/montserrat"
         android:gravity="center"
         android:text="5"
-        android:textColor="@color/black"
+        android:textColor="@color/colorBasicText"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="16sp"
+        android:layout_centerVertical="true"
         android:inputType="number"
-        android:layout_toRightOf="@+id/ingredient_title"
-        android:background="@drawable/white_grey_border"/>
+        android:layout_toRightOf="@+id/ingredient_title"/>
 
 </RelativeLayout>
