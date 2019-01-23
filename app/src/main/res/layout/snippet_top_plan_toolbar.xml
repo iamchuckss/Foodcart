@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@drawable/teal_grey_border_bottom">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -21,9 +22,10 @@
                 android:layout_width="230dp"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="Meal Plan for the Week"
+                android:fontFamily="@font/montserrat"
+                android:text="Weekly Plan"
                 android:textSize="20dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:textStyle="bold"
                 android:layout_marginStart="5dp"
                 android:id="@+id/select_ingredient_toolbar" />

@@ -19,7 +19,7 @@
 
         <!-- search bar -->
 
-        <!-- middle body (List of ingredients) -->
+        <!-- middle body (List of recipes) -->
         <android.support.v7.widget.RecyclerView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

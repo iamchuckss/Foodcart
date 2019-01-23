@@ -2,19 +2,22 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="115dp"
+    android:layout_height="160dp"
     android:padding="10dp"
     android:id="@+id/parent_layout"
-    android:background="@drawable/white_grey_border">
+    android:background="@drawable/grey_border_bottom">
 
         <TextView
             android:id="@+id/day_title"
             android:layout_width="match_parent"
             android:text="Monday"
-            android:textColor="@color/black"
+            android:textColor="@color/colorBasicText"
             android:textStyle="bold"
             android:layout_height="wrap_content"
             android:textSize="20sp"
+            android:fontFamily="@font/montserrat"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="3sp"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:clickable="false"/>
@@ -29,6 +32,12 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginLeft="25sp"
+                    android:lineHeight="22sp"
+                    android:textColor="@color/colorBasicText"
+                    android:fontFamily="@font/montserrat"
+                    android:textSize="14dp"
                     android:id="@+id/recipe_list"/>
 
         </LinearLayout>
