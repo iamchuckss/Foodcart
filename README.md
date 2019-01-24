@@ -13,12 +13,10 @@ You can input recipes into the database and these recipes can be reused to creat
 **Control your expenses.**
 - Buy only what's on your grocery list without worrying about overbuying or missing out something!
 
-<img src="screenshots/Homepage.png" class="screenshot" alt="homepage" width=200px/>
-<img src="screenshots/Planpage.png" class="screenshot" alt="planpage" width=200px/>
-<img src="screenshots/Recipepage.png" class="screenshot" alt="recipepage" width=200px/>
-<img src="screenshots/AddRecipepage.png" class="screenshot" alt="addrecipepage"/>
-<img src="screenshots/Ingredientspage.png" class="screenshot" alt="ingredientspage"/>
-<img src="screenshots/AddIngredientspage.png" class="screenshot" alt="addingredientspage"/>
+<img src="screenshots/screenshot-group-1.jpg" alt="screenshot 1" width="750">
+<img src="screenshots/screenshot-group-2.jpg" alt="screenshot 2" width="750">
+
+
 
 ## Authors
 
