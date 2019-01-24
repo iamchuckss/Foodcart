@@ -34,6 +34,7 @@
             android:layout_height="wrap_content"
             android:text="www.google.com"
             android:maxLines="1"
+            android:visibility="gone"
             android:ellipsize="end"
             android:textColor="@color/colorBasicText"
             android:fontFamily="@font/montserrat"

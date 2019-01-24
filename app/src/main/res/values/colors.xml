@@ -11,4 +11,6 @@
     <color name="darkTeal">#61e499</color>
     <color name="teal">#80F4B1</color>
     <color name="colorBasicText">#747474</color>
+    <color name="darkGrey">#696969</color>
+
 </resources>

@@ -11,19 +11,21 @@
         android:id="@+id/ingredient_title"
         android:layout_width="250dp"
         android:text="Curry Powder"
-        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/colorBasicText"
+        android:fontFamily="@font/montserrat"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:textSize="20sp" />
+        android:textSize="16sp"/>
 
     <TextView
         android:id="@+id/ingredient_quantity"
         android:layout_width="match_parent"
         android:gravity="center"
         android:text="5"
-        android:textColor="@color/black"
+        android:textColor="@color/colorBasicText"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:fontFamily="@font/montserrat"
+        android:textSize="16sp"
         android:inputType="number"
         android:layout_toRightOf="@+id/ingredient_title"/>
 

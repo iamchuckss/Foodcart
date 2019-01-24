@@ -3,9 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:padding="10dp"
+    android:padding="15dp"
     android:id="@+id/parent_layout"
-    android:background="@drawable/white_grey_border">
+    android:background="@drawable/grey_border_bottom">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,12 +17,13 @@
             android:id="@+id/recipe_title"
             android:layout_width="match_parent"
             android:text="Curry"
-            android:textColor="@color/black"
+            android:textColor="@color/colorBasicText"
             android:textStyle="bold"
             android:maxLines="1"
+            android:fontFamily="@font/montserrat"
             android:ellipsize="end"
             android:layout_height="wrap_content"
-            android:textSize="20sp"/>
+            android:textSize="18sp"/>
 
         <TextView
             android:id="@+id/recipe_website"
@@ -31,8 +32,10 @@
             android:text="www.google.com"
             android:maxLines="1"
             android:ellipsize="end"
-            android:textColor="@color/black"
-            android:textSize="15sp"/>
+            android:visibility="gone"
+            android:textColor="@color/colorBasicText"
+            android:fontFamily="@font/montserrat"
+            android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/recipe_ingredients"
@@ -41,8 +44,9 @@
             android:text="Cumin, Curry Powder, Curry Leaves"
             android:maxLines="1"
             android:ellipsize="end"
-            android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:textColor="@color/colorBasicText"
+            android:fontFamily="@font/montserrat"
+            android:textSize="14sp"/>
 
     </LinearLayout>
 

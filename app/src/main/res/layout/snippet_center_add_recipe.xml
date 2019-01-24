@@ -29,7 +29,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/recipe_name"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="40dp"
+                    android:layout_marginStart="45dp"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/colorBasicText"
                     android:background="@null"
                     android:inputType="textNoSuggestions"
                     android:hint="name"/>
@@ -55,7 +58,10 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/recipe_website"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="40dp"
+                    android:layout_marginStart="45dp"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/colorBasicText"
                     android:background="@null"
                     android:inputType="textNoSuggestions"
                     android:hint="website"/>
@@ -82,9 +88,10 @@
                     android:id="@+id/ingredients_title"
                     android:text="Ingredients"
                     android:layout_centerVertical="true"
-                    android:layout_marginStart="40dp"
-                    android:textSize="17dp"
-                    android:textColor="@color/black" />
+                    android:layout_marginStart="45dp"
+                    android:textSize="17sp"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/colorBasicText" />
 
                 <ImageView
                     android:layout_width="35dp"
